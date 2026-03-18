@@ -1,0 +1,20 @@
+dependencies:
+  espressif/button: ^4.1.4
+  espressif/esp_lcd_co5300: ^2.0.3
+  espressif/esp_lvgl_adapter:
+    public: true
+    version: ^0.3.*
+  idf: '>=5.3'
+  lvgl/lvgl: '>=8,<10'
+
+description: Board Support Package (BSP) for Waveshare ESP32-S3-CAM-OVxxxx
+repository: git://github.com/waveshareteam/Waveshare-ESP32-components.git
+repository_info:
+  commit_sha: fc44aa8c3a1d7171fcf09be16a64ea59d59b6347
+  path: bsp/esp-c6-touch-amoled-1.64
+tags:
+- bsp
+targets:
+- esp32c6
+url: https://www.waveshare.com/esp-c6-touch-amoled-1.64.htm
+version: 1.0.0
