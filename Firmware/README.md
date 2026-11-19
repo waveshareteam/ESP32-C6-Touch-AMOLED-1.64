@@ -17,8 +17,4 @@ Before flashing:
 
 SHA-256: `1E200A79A883FC22F48C44F540B479F54E1F732019BC866C9C49F6B09734BCA6`
 
-This file is a single merged BIN for factory recovery. The checksum and hardware applicability should be recorded in the pull request when the image is updated.
-
-## Updating the Factory Image
-
-When replacing the factory image, verify the new BIN on the target hardware, preserve older dates, and update both language versions of this README.
+This file is a single merged BIN for factory recovery.
