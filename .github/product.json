@@ -1,0 +1,9 @@
+{
+  "$schema": "https://raw.githubusercontent.com/waveshareteam/esp32-repo-template/v1/schema/product.schema.json",
+  "product": "ESP32-C6-Touch-AMOLED-1.64",
+  "product_url": "https://www.waveshare.com/esp-c6-touch-amoled-1.64.htm",
+  "tier": 1,
+  "target": "esp32c6",
+  "esp_idf": { "versions": ["v5.5.2"] },
+  "arduino": { "core": "3.2.0", "fqbn": "esp32:esp32:esp32c6:CDCOnBoot=cdc,FlashSize=16M" }
+}
